@@ -1,0 +1,122 @@
+<html>
+<head>
+	<title>TIMELAPSE</title>
+	<meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+	<style type="text/css">
+
+	img
+	{
+		position: absolute;
+		display: block;
+		left: 250;
+		top: 50;
+	}
+
+	#formDiv
+	{
+		position: absolute;
+		right: 230;
+		top: 175;
+	}
+
+	#tfheader{
+		background-color:#c3dfef;
+	}
+	#tfnewsearch{
+		float:right;
+		padding:20px;
+	}
+	.tftextinput{
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+
+	</style>
+
+</head>
+
+<body style="font-family:verdana;">
+
+	<div id="tfheader">
+		<form id="tfnewsearch" method="get" action="http://www.google.com">
+		        <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
+		</form>
+	<div class="tfclear"></div>
+	</div>
+
+	<img id="laag1" src="images/1.gif" height="" width="">
+	<img id="laag2" src="images/2.gif" height="" width="">
+	<img id="laag3" src="images/3.gif" height="" width="">
+	
+	
+
+
+<div id="formDiv">
+<form>
+
+  <input type="checkbox" name="plaats" value="plaats" onchange="toggleAfbeelding( 'laag1', this )"> PLAATS1<br>
+  <input type="checkbox" name="plaats" value="plaats" onchange="toggleAfbeelding( 'laag2', this )"> PLAATS2<br>
+  <input type="checkbox" name="plaats" value="plaats" onchange="toggleAfbeelding( 'laag3', this )"> PLAATS3<br>
+ 
+
+  
+</form>
+</div>
+
+<script type="text/javascript">
+
+	function toggleAfbeelding( naam, checkelement )
+	{
+		console.log( checkelement.checked );
+		if ( checkelement.checked )
+		{
+			document.getElementById( naam ).style.visibility = 'visible';
+		}
+		else
+		{
+			document.getElementById( naam ).style.visibility = 'hidden';
+		}
+	}
+
+</script>
+
+</body>
+</html>
+
+
+
