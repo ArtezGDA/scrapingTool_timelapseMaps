@@ -24,3 +24,6 @@ We thought that it is very interesting to see differences in the world in a blin
 - Secret buildings which are build
 - Every change you want
 
+# Demo of our TimelapseMaps tool
+
+[![Final demo](images/demo_07.png)](https://vimeo.com/209812867)
