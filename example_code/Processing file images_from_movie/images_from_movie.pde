@@ -1,15 +1,3 @@
-# scraping images from a video by using Processing
-
-### How to:
-- Download processing
-- Add library video
-- Replace AAA.mov by your own video file(name)
-- example: "firstvideo.mov"
-- Press the play button
-- You can find the images in a folder in the processing folder
-
-### Code (link to Processing file) 
-
 import processing.video.*;
 Movie mov;
 int newFrame = 0;
