@@ -39,11 +39,11 @@ The interface is inspired on Google; simple to use.
 There is a search bar where the user can put his coordinate in, and the interface is a friendly use system where the user quickly can see what he can do with the showed scraped information. It can be downloaded, or he can put a new coordinate into the tool, and start again with the process.
 
 ## Who are involved?
-Carmen Steenbrink
-Iris de Graaf
-Marleen van Zalm
-Google earth (engine)
-Time laps
+- Carmen Steenbrink
+- Iris de Graaf
+- Marleen van Zalm
+- Google earth (engine)
+- Time laps
  
 # How does the tool exactly work?
 
@@ -52,7 +52,7 @@ Rainbow Magicland, Via della Pace, Valmontone, Rome, Italië
 ![First four images of a test GIF](images/testgif_01.png)
 ![Last four images of a test GIF](images/testgif_02.png)
 
-![First working GIF] (images/first_timelapsegif.gif)
+![First working GIF](images/first_timelapsegif.gif)
 
 ### Options in google earth to manage time
 ![How to find the timelapse in Google Earth](images/howto_timelapse.png)
