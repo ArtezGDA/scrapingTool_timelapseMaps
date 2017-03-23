@@ -8,7 +8,7 @@
 - Press the play button
 - You can find the images in a folder in the processing folder
 
-### Code (link to Processing file) 
+### [Code (link to Processing file)](https://github.com/ArtezGDA/scrapingTool_timelapseMaps/blob/master/example_code/Processing%20file%20images_from_movie/images_from_movie.pde) 
 
 import processing.video.*;
 Movie mov;
