@@ -4,6 +4,6 @@ In the python script you can specify which data set you use in combination of th
 
 You can use different landsat (dataset) to get different outcomes. Every data set is specific in use (think about: year, location, data etc.).
 
-[Code (link to Code)](https://github.com/ArtezGDA/scrapingTool_timelapseMaps/blob/master/example_code/Processing%20file%20images_from_movie/images_from_movie.pde)
+[Code (link to Code)](https://github.com/ArtezGDA/scrapingTool_timelapseMaps/blob/master/example_code/dataset_coordinates_code.py)
 
 ![Google Drive](images/googledrive.png)
