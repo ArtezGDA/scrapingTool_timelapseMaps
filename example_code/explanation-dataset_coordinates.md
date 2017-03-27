@@ -6,4 +6,8 @@ You can use different landsat (dataset) to get different outcomes. Every data se
 
 [Code (link to Code)](https://github.com/ArtezGDA/scrapingTool_timelapseMaps/blob/master/example_code/dataset_coordinates_code.py)
 
+Where it gets saved:
 ![Google Drive](images/googledrive.png)
+
+Example of what gets exported:
+![Example of exporting](images/example.tif) 
