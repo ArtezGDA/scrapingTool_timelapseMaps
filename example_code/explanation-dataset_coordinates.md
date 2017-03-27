@@ -10,4 +10,4 @@ Where it gets saved:
 ![Google Drive](images/googledrive.png)
 
 Example of what gets exported:
-![Example of exporting](images/example.tif) 
+![Example of exporting](images/example.jpg) 
