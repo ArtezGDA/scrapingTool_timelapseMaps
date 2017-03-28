@@ -9,8 +9,6 @@
 ### 02b. Example of find images in a dataset with Google Engine
 [Link to find images](https://github.com/ArtezGDA/scrapingTool_timelapseMaps/blob/master/example_code/02b_find_images_in_dataset.md)
 
-### 03. Code to export an specific image from Google Engine
-[Link to Python code](https://github.com/ArtezGDA/scrapingTool_timelapseMaps/blob/master/example_code/03_dataset_coordinates_code.py)
+### 03. Code to export an specific image from Google Engine + explanation
+[Link to Python code](https://github.com/ArtezGDA/scrapingTool_timelapseMaps/blob/master/example_code/03_explanation-dataset_coordinates.md)
 
-### 04. Explanation of the code above, to export an image from Google Engine
-[Link to explanation](https://github.com/ArtezGDA/scrapingTool_timelapseMaps/blob/master/example_code/04_explanation-dataset_coordinates.md)
