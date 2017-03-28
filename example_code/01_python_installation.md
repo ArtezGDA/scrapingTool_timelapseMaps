@@ -158,6 +158,7 @@ Testing the installation
 
 To test that authentication has been correctly setup, run the following script.
 
+```python
 # Import the Earth Engine Python Package
 import ee
 
@@ -167,6 +168,7 @@ ee.Initialize()
 # Print the information for an image asset.
 image = ee.Image('srtm90_v4')
 print(image.getInfo())
+```
       
 If everything is installed correctly, the metadata for an image should be printed.
 
@@ -174,6 +176,6 @@ Coding in the Python API
 
 The Earth Engine Python API is identical to the Javascript API with a few exceptions. For example, you need to import the Earth Engine library to your Python scripts with
 
-import ee
+`import ee`
       
 In addition to syntactic differences between JavaScript and Python (e.g. declare a user function in Python with 'def' instead of 'function'), logical methods are capitalized in Python to avoid reserved words: And(), Or(), Not() instead of and(), or() not(). Map output is currently not supported.
