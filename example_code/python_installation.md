@@ -1,10 +1,10 @@
-Python installation
+#Python installation
 
-Inhoudsopgave
-Installing the client library
-Ubuntu Linux & Mac OS X installation
-Windows Installation
-Uninstalling the Library
+### You can choose to follow the following steps [Link to Python installation](https://developers.google.com/earth-engine/python_install)
+### Or you can find these steps below
+
+
+
 
 The Earth Engine Python API is distributed as a Python package that is hosted on Github. The following instructions give an overview of installing the Google Earth Engine Python API. To use the Earth Engine Python API you'll need to install the client library and its dependencies on your computer and then set up authentication credentials.
 
